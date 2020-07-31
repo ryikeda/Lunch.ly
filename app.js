@@ -4,7 +4,6 @@ const express = require("express");
 const nunjucks = require("nunjucks");
 const bodyParser = require("body-parser");
 const routes = require("./routes");
-const db = require("./db");
 const app = express();
 
 // Parse body for urlencoded (non-JSON) data
